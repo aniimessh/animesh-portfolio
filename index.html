@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Animesh Gupta</title>
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+    </style>
+</head>
+
+<body>
+    <!-- hero section -->
+    <div class=" h-[650px] w-full" id="home">
+        <div class="h-[72px]  w-[968px] flex items-center justify-between m-auto">
+            <div>
+                <p class="font-josefin text-[24px] font-semibold">Animesh</p>
+            </div>
+            <div>
+                <ul class="flex space-x-6">
+                    <li><a href="#home"
+                            class="font-josefin hover:text-[#FEAA00] transition-all duration-200 text-[15px]">Home</a>
+                    </li>
+                    <li><a href="#about"
+                            class="font-josefin hover:text-[#FEAA00] transition-all duration-200 text-[15px]">About</a>
+                    </li>
+                    <li><a href="#skill"
+                            class="font-josefin hover:text-[#FEAA00] transition-all duration-200 text-[15px]">Skills</a>
+                    </li>
+                    <li><a href="#qualification"
+                            class="font-josefin hover:text-[#FEAA00] transition-all duration-200 text-[15px]">Qualifications</a>
+                    </li>
+                    <li><a href="#project"
+                            class="font-josefin hover:text-[#FEAA00] transition-all duration-200 text-[15px]">Projects</a>
+                    </li>
+                    <li><a href="#contact"
+                            class="font-josefin hover:text-[#FEAA00] transition-all duration-200 text-[15px]">Contact
+                            Me</a></li>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=""
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg> -->
+                </ul>
+            </div>
+        </div>
+        <div class="h-[400px] w-[768px] m-auto flex gap-6">
+            <div class="h-[168px] w-[20px]  items-center flex flex-col justify-between">
+                <a href="https://www.linkedin.com/in/aniimessh-gupta/" target="_blank">
+                    <img src="./Assets/linkedin-svgrepo-com.svg"></a>
+                <a href="https://github.com/aniimessh" target="_blank">
+                    <img src="./Assets/github-svgrepo-com.svg" alt=""></a>
+                <a href="https://twitter.com/aniimessh_1209" target="_blank">
+                    <img src="./Assets/twitter-boxed-svgrepo-com.svg" alt=""></a>
+                <a href="https://www.instagram.com/anii.messh/" target="_blank">
+                    <img src="./Assets/instagram-svgrepo-com.svg" alt=""></a>
+            </div>
+            <div class="h-[285px] w-[355px]">
+                <p class="text-[48px] font-josefin font-bold">Hi, I'm Animesh</p>
+                <div class="text-[20px] font-josefin font-bold text-[#FEAA00]">
+                    I am a <span class="role"></span>Developer
+                </div>
+                <p class="font-josefin text-[20px]">Building problems for to find real life solutions</p>
+                <a href="#contact">
+                    <button class="bg-[#FEAA00] px-2 py-2 rounded-md text-black font-josefin flex font-semibold">Contact
+                        Me
+                        <img src="./Assets/cursor-fill.svg" class="ml-[4px]">
+                    </button>
+                </a>
+            </div>
+            <div class="h-[370px] w-[370px]">
+                <img src="./Assets/user-image.jfif" class="hover:scale-105 hover:rotate-12 duration-200 transition-all">
+            </div>
+        </div>
+    </div>
+
+    <!-- introduction section -->
+    <div class="h-[612px] w-full" id="about">
+        <div class="flex flex-col items-center w-[1168px] m-auto">
+            <p class="font-bold font-josefin text-[40px]">About Me</p>
+            <p class="font-josefin text-[20px] mb-[2%]">My Self</p>
+            <div class="h-[345px] w-[768px] flex justify-between">
+                <div class="h-[344px] w-[344px]">
+                    <img src="./Assets/user-image.jfif"
+                        class="grayscale-1 hover:grayscale-0 transition-all duration-1000 sm:grayscale">
+                </div>
+                <div class="h-[255px] w-[344px]">
+                    <p class="font-josefin text-justify text-[18px]">Hii there,👋I'm Animesh a 20-year-old CSE undergrad
+                        who is passionate about Software Developement, UI/UX Design and Product Management. Currently,
+                        I'm pursuing my career as a Full Stack Web Developer. I share my learning experience engagements
+                        and write up.</p>
+                    <a href="./Assets/Animesh_Resume.pdf" download="Animesh-Resume">
+                        <button
+                            class="bg-[#FEAA00] px-2 py-2 rounded-md text-black font-josefin flex font-semibold mt-4">Hire
+                            Me
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="white" class="ml-[4px]"
+                                viewBox="0 0 16 16">
+                                <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                                <path
+                                    d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5v2z" />
+                            </svg>
+                        </button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- skills -->
+    <div class="h-[683px] w-full" id="skill">
+        <div class="flex justify-center w-full">
+            <p class="font-bold font-josefin text-[40px]">Skills</p>
+        </div>
+        <div class="h-[450px] w-[1168px] justify-center items-center flex m-auto  space-x-6">
+            <div class="h-[450px] w-[330px] ">
+                <p class="font-josefin font-bold text-[24px]">Coding</p>
+                <p class="font-josefin text-[16px]">Language I know to solve problem's and picked up over the year</p>
+                <div class="flex mt-[10px] justify-between relative">
+                    <img src="./Assets/Stack/cpp-svgrepo-com.svg" height="50px" width="50px">
+                    <p class="font-josefin text-[20px] select-none">C++</pclas>
+                    <div class="h-[4px] w-[280px] bg-[#FEAA00] rounded-lg absolute bottom-0 right-0"></div>
+                </div>
+                <div class="flex mt-[10px]  justify-between relative">
+                    <img src="./Assets/Stack/html-5-svgrepo-com.svg" height="50px" width="50px">
+                    <p class="font-josefin text-[20px] select-none">HTML</pclas>
+                    <div class="h-[4px] w-[280px] bg-[#FEAA00] rounded-lg absolute bottom-0 right-0"></div>
+                </div>
+                <div class="flex mt-[10px] justify-between relative">
+                    <img src="./Assets/Stack/css-3.png" height="50px" width="50px">
+                    <p class="font-josefin text-[20px] select-none">CSS</pclas>
+                    <div class="h-[4px] w-[280px] bg-[#FEAA00] rounded-lg absolute bottom-0 right-0"></div>
+                </div>
+                <div class="flex mt-[10px] justify-between relative">
+                    <img src="./Assets/Stack/js.png" height="50px" width="50px">
+                    <p class="font-josefin text-[20px] select-none">JavaScript</pclas>
+                    <div class="h-[4px] w-[280px] bg-[#FEAA00] rounded-lg absolute bottom-0 right-0"></div>
+                </div>
+                <div class="flex mt-[10px] justify-between relative">
+                    <img src="./Assets/Stack/python.png" height="50px" width="50px">
+                    <p class="font-josefin text-[20px] select-none">Python</pclas>
+                    <div class="h-[4px] w-[280px] bg-[#FEAA00] rounded-lg absolute bottom-0 right-0"></div>
+                </div>
+            </div>
+            <div class="h-[450px] w-[330px]">
+                <p class="font-josefin font-bold text-[24px]">Designing</p>
+                <p class="font-josefin text-[16px]">Designing tool I picked up to decorate website</p>
+                <div class="flex mt-[10px] justify-between relative">
+                    <img src="./Assets/Stack/figma.png" height="50px" width="50px">
+                    <p class="font-josefin text-[20px] select-none">Figma</pclas>
+                    <div class="h-[4px] w-[280px] bg-[#FEAA00] rounded-lg absolute bottom-0 right-0"></div>
+                </div>
+                <div class="flex mt-[10px] justify-between relative">
+                    <img src="./Assets/Stack/xd.png" height="50px" width="50px">
+                    <p class="font-josefin text-[20px] select-none">Adobe Xd</pclas>
+                    <div class="h-[4px] w-[280px] bg-[#FEAA00] rounded-lg absolute bottom-0 right-0"></div>
+                </div>
+            </div>
+            <div class="h-[450px] w-[330px]">
+                <p class="font-josefin font-bold text-[24px]">Tools</p>
+                <p class="font-josefin text-[16px]">Tools I know to make my work easy and manageable</p>
+                <div class="flex mt-[10px] justify-between relative">
+                    <img src="./Assets/Stack/git.png" height="50px" width="50px">
+                    <p class="font-josefin text-[20px] select-none">Git</pclas>
+                    <div class="h-[4px] w-[280px] bg-[#FEAA00] rounded-lg absolute bottom-0 right-0"></div>
+                </div>
+                <div class="flex mt-[10px] justify-between relative">
+                    <img src="./Assets/Stack/github.png" height="50px" width="50px">
+                    <p class="font-josefin text-[20px] select-none">Github</pclas>
+                    <div class="h-[4px] w-[280px] bg-[#FEAA00] rounded-lg absolute bottom-0 right-0"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Qualification -->
+    <div class="h-[500px] w-full" id="qualification">
+        <div class="flex flex-col items-center w-full">
+            <p class="font-bold font-josefin text-[40px]">Qualifications</p>
+            <p class="font-josefin text-[20px]">My educational background</p>
+        </div>
+        <div class=" h-[400px] w-full relative mt-[2%]">
+            <div class="h-[300px] w-[400px] m-auto  absolute left-[15%] opacity-70">
+                <p class="font-josefin text-[30px] font-bold">DAV Public School</p>
+                <div class="h-[4px] w-[30px] bg-[#FEAA00] absolute left-[20%]"></div>
+                <!-- <p class="font-josefin text-[24px] mt-[2%]">Bariyatu Road, Ranchi</p> -->
+                <p class="font-josefin text-[20px] mt-[2%]">Secondary School</p>
+                <p class="font-josefin text-[20px] opacity-70">2010-2018</p>
+                <div class="h-[20px] w-[20px] rounded-full border border-[#FEAA00] absolute left-[18%] bg-white top-[37%] z-10"
+                    tool-tip="Ranchi">
+                </div>
+                <div class="absolute h-[2px] w-[1000px] bg-[#FEAA00] left-[20%] top-[40%] -z-10"></div>
+            </div>
+            <div class="h-[300px] w-[420px] m-auto  absolute left-[39%] opacity-80">
+                <p class="font-josefin text-[30px] font-bold">Usha Martin University</p>
+                <div class="h-[4px] w-[30px] bg-[#FEAA00] absolute left-[20%]"></div>
+                <!-- <p class="font-josefin text-[24px] mt-[2%]">Angara Road, Ranchi</p> -->
+                <p class="font-josefin text-[20px] mt-[2%]">Diploma Computer Science</p>
+                <p class="font-josefin text-[20px] opacity-70">2018-2021</p>
+                <div
+                    class="h-[20px] w-[20px] rounded-full border border-[#FEAA00] absolute left-[40%] bg-white top-[37%] z-10">
+                </div>
+            </div>
+            <div class="h-[300px] w-[400px] m-auto absolute right-[15%]">
+                <p class="font-josefin text-[30px] font-bold">OP Jindal University</p>
+                <div class="h-[4px] w-[30px] bg-[#FEAA00] absolute left-[20%]"></div>
+                <!-- <p class="font-josefin text-[24px] mt-[2%]">Punjipathra, Raigrah</p> -->
+                <p class="font-josefin text-[20px] mt-[2%]">B.Tech Computer Science</p>
+                <p class="font-josefin text-[20px] opacity-70">2021-2024</p>
+                <div
+                    class="h-[20px] w-[20px] rounded-full border border-[#FEAA00] absolute left-[45%] bg-white top-[37%] z-10">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- projects -->
+    <div class="h-[633px] w-[full] " id="project">
+        <div class="flex flex-col items-center w-full">
+            <p class="font-bold font-josefin text-[40px]">Projects</p>
+            <p class="font-josefin text-[20px] mt-0 p-0">Hands on work</p>
+            <div class="h-[300px] w-[968px]  flex justify-between mt-[1%]">
+                <div class="h-[300px] w-[300px] space-y-2">
+                    <!-- <img src="./Assets/projects/Anime_Website.gif" class="rounded-md"> -->
+                    <p class="font-josefin text-[20px] font-bold">Anime Quotes Website</p>
+                    <a href="https://aniimessh.github.io/Parallax-Website/" target="_blank"> <button
+                            class="bg-[#FEAA00] px-2 py-2 rounded-md text-black font-josefin flex font-semibold items-center mt-[10px] text-[16px] hover:bg-[#fcb424] duration-200 transition-all">Know
+                            More <img src="./Assets/Stack/arrow-open-end-svgrepo-com.svg" height="16px" width="16px">
+                        </button></a>
+                    <p class="font-josefin text-justify">This is an Anime Quotes Website made using HTML, CSS with a
+                        simple and minimalistic design. </p>
+
+                </div>
+                <div class="h-[300px] w-[300px]  space-y-2">
+                    <!-- <img src="./Assets/projects/Anime_Website.gif" class="rounded-md"> -->
+                    <p class="font-josefin text-[20px] font-bold">Personal Portfolio Website</p>
+                    <button
+                        class="bg-[#FEAA00] px-2 py-2 rounded-md text-black font-josefin flex items-center font-semibold hover:bg-[#fcb424] duration-200 transition-all">Know
+                        More <img src="./Assets/Stack/arrow-open-end-svgrepo-com.svg" height="16px" width="16px">
+                    </button>
+                    <p class="font-josefin text-justify">This is my Personal Portfolio Website which is made using HTML
+                        and TailwindCSS. </p>
+                </div>
+                <div class="h-[300px] w-[300px]  space-y-2">
+                    <!-- <img src="./Assets/projects/Anime_Website.gif" class="rounded-md"> -->
+                    <p class="font-josefin text-[20px] font-bold">Blog Website</p>
+                    <button
+                        class="bg-[#FEAA00] px-2 py-2 rounded-md text-black font-josefin flex items-center font-semibold hover:bg-[#fcb424] duration-200 transition-all">Know
+                        More <img src="./Assets/Stack/arrow-open-end-svgrepo-com.svg" height="16px" width="16px">
+                    </button>
+                    <p class="font-josefin text-justify">This is Blogging Website in which I write up daily blogs. This
+                        website is made using HTML,TailwindCSS </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact me -->
+    <div class="h-[783px] w-full" id="contact">
+        <div class="flex flex-col items-center w-full">
+            <p class="font-bold font-josefin text-[40px]">Contact Me</p>
+            <p class="font-josefin text-[20px]">Connect with me</p>
+        </div>
+        <div class="h-[540px] w-[768px]  m-auto flex justify-between mt-[1%]">
+            <div class="h-[540px] w-[285px] flex flex-col space-y-5">
+                <a href="mailto:officialanimesh@gmail.com">
+                    <div class="h-[82px] w-[284px] border-2 rounded-md border-[#FEAA00]">
+                        <p class="font-josefin text-[30px] font-bold flex gap-3">Email
+                            <img src="./Assets/Stack/mail-svgrepo-com.svg" height="20px" width="20px">
+                        </p>
+                        <p class="font-josefin text-[20x]">officalanimesh@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://www.google.com/maps/place/O.P.+Jindal+University+(OPJU)/@22.0616825,83.3460697,17z/data=!3m1!4b1!4m6!3m5!1s0x3a2738d9e7507349:0xc2992d50446a6f0!8m2!3d22.0616775!4d83.3482584!16s%2Fg%2F11bwf1slsy"
+                    target="_blank">
+                    <div class="h-[82px] w-[284px] border-2 rounded-md border-[#FEAA00]">
+                        <p class="font-josefin text-[30px] font-bold flex gap-3">Location
+                            <img src="./Assets/Stack/location-information-svgrepo-com.svg" height="20px" width="20px">
+                        </p>
+                        <p class="font-josefin text-[20x]">Punjipathra, Chattisgarh</p>
+                    </div>
+                </a>
+                <a href="mailto:animeshsep01@gmail.com">
+                    <div class="h-[82px] w-[284px] border-2 rounded-md border-[#FEAA00]">
+                        <p class="font-josefin text-[30px] font-bold flex gap-3">Twitter
+                            <img src="./Assets/twitter-boxed-svgrepo-com.svg" height="20px" width="20px">
+                        </p>
+                        <p class="font-josefin text-[20x]">@aniimessh_1209</p>
+                    </div>
+                </a>
+            </div>
+            <div class="h-[540px] w-[460px] space-y-5">
+                <div class="flex justify-between">
+                    <div class="h-[82px] w-[220px] border-2 border-[#FEAA00] rounded-md bg-[#fad283]">
+                        <label for="name" class="font-josefin ml-[10%]">Name</label>
+                        <input type="text" id="name" class="bg-[#fad283] ml-[10%] font-josefin border-none" required>
+                    </div>
+                    <div class="h-[82px] w-[220px] border-2 border-[#FEAA00] rounded-md bg-[#fad283]">
+                        <label for="email" class="font-josefin ml-[10%]">Email</label>
+                        <input type="email" id="email" class="bg-[#fad283] ml-[10%] font-josefin border-none" required>
+                    </div>
+                </div>
+                <div class="h-[82px] border-2 border-[#FEAA00] rounded-md bg-[#fad283] flex flex-col">
+                    <label for="subject" class="font-josefin ml-[5%]">Subject</label>
+                    <input type="text" id="subject" class="bg-[#fad283] ml-[5%] font-josefin border-none" required
+                        height="30px">
+                </div>
+                <div class="h-[200px] border-2 border-[#FEAA00] rounded-md bg-[#fad283] flex flex-col">
+                    <label for="msg" class="font-josefin ml-[5%]">Message</label>
+                    <textarea name="" id="msg" cols="30" rows="10" class="bg-[#fad283] ml-[5%] font-josefin"></textarea>
+                    <!-- <input type="text" id="subject" class="bg-[#fad283] ml-[5%] font-josefin border-none" required height="30px"> -->
+                </div>
+                <button
+                    class="bg-[#FEAA00] h-[62px] w-[162px] px-2 py-2 rounded-md text-white font-josefin flex items-center font-semibold hover:bg-[#eeb645] duration-200 transition-all gap-3">Send
+                    Message<img src="./Assets/Stack/arrow-open-end-svgrepo-com.svg" height="16px" width="16px">
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="h-[340px] w-full bg-[#FEAA00] flex flex-col">
+        <div class="w-[768px] h-[160px]  m-auto flex justify-between items-center gap-3">
+            <div class="h-[160px] w-[240px] ">
+                <p class="font-josefin text-[40px] font-bold text-white">Animesh Gupta</p>
+                <p class="font-josefin text-[20px] text-white">Full Stack Developer</p>
+            </div>
+            <div class="h-[160px] w-[240px] flex flex-col ">
+                <ul class="flex justify-between text-white">
+                    <a href="#home">
+                        <li>Home</li>
+                    </a>
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+                    <a href="#project">
+                        <li>Projects</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="h-[160px] w-[240px] flex flex-col">
+                <ul class="flex justify-between text-white">
+                    <a href="#home">
+                        <li><img src="./Assets/linkedin-svgrepo-com.svg" height="20px" width="20px">
+                        </li>
+                    </a>
+                    <a href="#about">
+                        <li><img src="./Assets/twitter-boxed-svgrepo-com.svg" height="20px" width="20px"></li>
+                    </a>
+                    <a href="#project">
+                        <li><img src="./Assets/instagram-svgrepo-com.svg" height="20px" width="20px"></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="flex flex-col items-center w-full">
+            <p class="font-josefin text-[20px] mb-[2%]">&copy;Animesh Gupta.All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "MERN Stack",
+                "Web ",
+                "Front-End ",
+                "Coder",
+            ],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1000,
+        });
+    </script>
+</body>
+
+</html>
